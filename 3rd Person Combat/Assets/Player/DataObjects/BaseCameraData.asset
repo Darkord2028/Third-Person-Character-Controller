@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35be642205a151745b584da4ff686b89, type: 3}
+  m_Name: BaseCameraData
+  m_EditorClassIdentifier: 
+  defaultHorizontalRotationSpeed: 220
+  defaultVerticalRotationSpeed: 220
+  minimumPivot: -30
+  maximumPivot: 60
+  cameraCollisionsRadius: 0.2
+  collideWithLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  mouseHorizontalRotationSpeed: 10
+  mouseVerticalRotationSpeed: 5
+  gamepadHorizontalRotationSpeed: 220
+  gamepadVerticalRotationSpeed: 220

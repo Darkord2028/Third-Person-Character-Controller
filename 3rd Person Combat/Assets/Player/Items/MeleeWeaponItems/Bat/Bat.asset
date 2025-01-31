@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c03406a6f57aa4faf897dfa1a3679f, type: 3}
+  m_Name: Bat
+  m_EditorClassIdentifier: 
+  itemName: Bat
+  itemSprite: {fileID: 21300000, guid: 5dabdc9eebabf6b418ea72b232bdff18, type: 3}
+  itemModel: {fileID: 2526122313223265403, guid: 315fae227621dff489dc96237cfcd968, type: 3}
+  meleeWeaponType: 1
+  holsterPosition: 2
+  meleeWeaponAnimatorOverrideController: {fileID: 22100000, guid: e176e804c5f1ce7439214cdc91aad792, type: 2}
+  holdWeaponWeight: 0.6
+  drawWeaponAnimationInSeconds: 0

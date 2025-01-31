@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93830a02885b8940908f6b44b4f2a25, type: 3}
+  m_Name: Benneli_M4
+  m_EditorClassIdentifier: 
+  itemName: Bennelli M4
+  itemSprite: {fileID: 21300000, guid: 18f6faf42fd1c6b4786b167fa0754d3a, type: 3}
+  itemModel: {fileID: 4404354911497096885, guid: 847aceb556459974c8c639d102f01cd2, type: 3}
+  weapon: 3
+  holsterPosition: 2
+  isPrimary: 0
+  weaponAnimatorOverrideController: {fileID: 22100000, guid: f8bdcd8e69dc3d240a818c5a2a94dfde, type: 2}
+  holdWeaponWeight: 1
+  drawWeaponAnimationInSeconds: 0.5
+  SpineOffset: {x: 0, y: 48, z: 0}
+  ChestOffset: {x: 0, y: 45, z: 15}
+  HeadOffset: {x: 0, y: 0, z: 0}
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 65
+  firerate: 1
+  bulletsPerShot: 5
+  maxSpreadTime: 1
+  shootSpread: {x: 0.08, y: 0.08, z: 0.08}
+  minSpread: {x: 0, y: 0, z: 0}
+  recoilRecoverySpeed: 1
+  trailMaterial: {fileID: 2100000, guid: e06056a5c380ae644a3bafbd4d1f1560, type: 2}
+  trailWidthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.05
+      inSlope: -0.0130500905
+      outSlope: -0.0130500905
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.13000003
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.079625614
+      outSlope: -0.079625614
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.58
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  trailDuration: 0.05
+  trailMinVertexDistance: 0.1
+  trailColor:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 0}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  trailMissDistance: 30
+  simulationSpeed: 100
+  damageCurve:
+    m_Mode: 3
+    m_CurveMultiplier: 0
+    m_CurveMin:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_CurveMax:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ConstantMin: 0
+    m_ConstantMax: 0
+  shootAudioClip: {fileID: 8300000, guid: 513b2b54a739b4243af56f6fd1419b69, type: 3}
+  reloadAudioClip: {fileID: 8300000, guid: a236ed6ed1165ca44908f0cfe8c7ed65, type: 3}
+  equipAudioClip: {fileID: 8300000, guid: 01eab313d4067ed4fbacdfea8f1bce18, type: 3}
+  emptyClipAudioClip: {fileID: 8300000, guid: fef9d7a69a33c754196b91da4433992a, type: 3}
+  autoReload: 1
+  MaxAmmo: 25
+  ClipSize: 5
+  CurrentAmmo: 20
+  CurrentClipAmmo: 5
